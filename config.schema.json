@@ -1,0 +1,25 @@
+{
+  "pluginAlias": "OpenHomeSecurity",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "endpoint": {
+        "title": "Base OHS endpoint URL with no trailing slash",
+        "type": "string",
+        "required": true
+      },
+      "username": {
+        "title": "username",
+        "type": "string",
+        "required": true
+      },
+      "password": {
+        "title": "password",
+        "type": "string",
+        "required": true
+      }
+    }
+  }
+}
