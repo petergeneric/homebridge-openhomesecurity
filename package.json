@@ -1,5 +1,4 @@
 {
-  "private": true,
   "displayName": "OpenHomeSecurity Plugin",
   "name": "homebridge-openhomesecurity",
   "version": "1.0.0",
