@@ -7,5 +7,5 @@ import { OHSPlatform } from './platform';
  * This method registers the platform with Homebridge
  */
 export = (api: API) => {
-  api.registerPlatform(PLATFORM_NAME, OHSPlatform);
+	api.registerPlatform(PLATFORM_NAME, OHSPlatform);
 };
